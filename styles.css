@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  height: 60px;
+  width: 80px;
+  font-size: 30px;
+  margin: 6px;
+  border-radius: 80%;
+  background-color: oklch(82.8% 0.111 230.318);
+}
+
+button:hover {
+  background-color: oklch(74.6% 0.16 232.661);
+}
+
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  background-color: oklch(26.8% 0.007 34.298);
+  border-radius: 5%;
+}
+
+.screen {
+  display: flex;
+  height: 60px;
+  width: 350px;
+  margin-bottom: 30px;
+  background-color: oklch(70.9% 0.01 56.259);
+  padding: 0;
+}
+
+.display {
+  font-size: 40px;
+  padding: 0;
+  margin-left: auto;
+  margin-top: auto;
+  padding-right: 5px;
+}
+
+.buttons {
+  padding-bottom: 16px;
+}
+
+.equals {
+  background-color: oklch(76.5% 0.177 163.223);
+}
+
+.equals:hover {
+  background-color: oklch(69.6% 0.17 162.48);
+}
+
+.op {
+  background-color: oklch(79.5% 0.184 86.047);
+}
+
+.op:hover {
+  background-color: oklch(68.1% 0.162 75.834);
+}
